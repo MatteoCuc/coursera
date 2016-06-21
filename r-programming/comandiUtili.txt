@@ -1,0 +1,3 @@
+Questa è la lista dei comandi utili in R:
+
+getwd() -> per consocere la directory corrente
