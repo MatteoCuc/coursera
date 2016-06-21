@@ -1,3 +1,4 @@
 Questa è la lista dei comandi utili in R:
 
+ctrl+L -> per pulire la console
 getwd() -> per consocere la directory corrente
