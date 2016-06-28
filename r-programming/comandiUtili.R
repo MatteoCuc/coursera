@@ -47,4 +47,29 @@ x
 
 
 #read from file
+read.table("dati.txt")
 read.table("dati.txt", header = TRUE)
+read.table("dati.txt", skip = 2)
+read.table("dati.txt", nrows = 6)
+read.table("dati.txt", header = TRUE, nrows = 6)
+
+#Textual format
+y<-data.frame(a=1:3, b=c("a","b","c"))
+y
+dput(y)
+dput(y, file = "y.R") #scrive codice R che poi puo' essere trasformato in oggetti
+
+a<-dget("y.R")
+a
+source("y.R")
+y
+
+#Connessioni a file
+# - file (per i file testuali)
+# - gzfile, bzfile (per gli archivi)
+# - url (per le pagine web)
+
+conn <- url("http://www.google.it","r")
+l<-readLines(conn, 30)
+l
+

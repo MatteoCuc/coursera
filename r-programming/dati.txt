@@ -3,3 +3,6 @@ id age nationality gender
 2 34 italy female
 3 55 italy female
 4 29 italy female
+5 29 italy female
+6 39 italy female
+7 17 italy male
