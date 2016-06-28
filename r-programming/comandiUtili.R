@@ -45,4 +45,6 @@ x
 dimnames(x)<-list(c("r1","r2"),c("c1","c2","c3"))
 x
 
-#Summary
+
+#read from file
+read.table("dati.txt", header = TRUE)
