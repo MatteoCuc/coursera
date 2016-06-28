@@ -44,3 +44,5 @@ x<-matrix(1:6,nrow = 2, ncol = 3)
 x
 dimnames(x)<-list(c("r1","r2"),c("c1","c2","c3"))
 x
+
+#Summary
