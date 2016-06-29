@@ -73,3 +73,27 @@ conn <- url("http://www.google.it","r")
 l<-readLines(conn, 30)
 l
 
+#[  
+x<-c("a","b","c","d","e","a")
+x[1]#si ottiene un vettore di un sigolo carattere
+x[1:4]
+x[x > "b"]
+
+u <- x > "b"
+u
+
+# [[
+
+y<-list(a=1:5, b=c("a","b"),c=3.5)
+y[1]
+y[2]
+y[[2]]
+
+name<-"a"
+y[[name]]
+y$name #element called name in list doesnt exist
+y$a
+
+#matrici
+x<-matrix(1:6,2,3)
+x
