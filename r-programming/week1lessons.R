@@ -97,3 +97,35 @@ y$a
 #matrici
 x<-matrix(1:6,2,3)
 x
+
+y<-list(matteo=c(4,5,6,7))
+y
+y$m #la m matcha con la colonna matteo
+y[["m"]]
+y[["m", exact=FALSE]]
+
+
+#removing NA values
+x<-c(1,2,3,NA,5,6,8, NA, 10)
+bad<-is.na(x)
+bad
+x[!bad]
+good<-complete.cases(x)
+good
+x[good]
+
+#vettorizzazione
+x<-c(1:6)
+x
+y<-c(7:12)
+y
+x+y
+x+y == 10
+
+#matrix multiplication
+x<-matrix(1:9,3,3)
+x
+y<-matrix(1:9,3,3)
+y
+x*y
+x%*%y
