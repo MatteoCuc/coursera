@@ -1,10 +1,10 @@
-#Questa è la lista dei comandi utili e di esempi in R:
+#Questa Ã¨ la lista dei comandi utili e di esempi in R:
 
 
 #per consocere la directory corrente
 getwd()
 
-#concatenate
+#concatenate o combine -> per la creazione di un vettore
 x<-c("T","F")
 x
 a<-c(1:11)
