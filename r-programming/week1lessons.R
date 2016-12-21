@@ -10,6 +10,12 @@ x
 a<-c(1:11)
 a
 
+# es: Roulette winnings from Monday to Friday
+roulette_vector <- c(-24, -50, 100, -350, 10)
+# variable with day of week
+days_vector <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+names(roulette_vector) <-   days_vector
+
 #Factors
 x <- factor(c("yes","no","yes","yes","no"))
 x
